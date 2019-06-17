@@ -4,18 +4,18 @@
 
 # Site
 title: Zhuoran Wu
-subtitle:
-description:
-keywords:
+subtitle: Call me Oliver
+description: A Coder in Computer Vision and Machine Learning.
+keywords: Machine Learning, Deep Learning, Computer Vision.
 author: Zhuoran Wu
-language:
-timezone: Los Angeles
+language: en
+timezone: America/Los_Angeles
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://wuzhuoran.github.io
 root: /
-permalink: :year/:month/:day/:title/
+permalink: :month/:day/:year/:title/
 permalink_defaults:
 
 # Directory
@@ -81,3 +81,19 @@ deploy:
   type: git
   repo: git@github.com:wuzhuoran/wuzhuoran.github.io.git
   branch: master
+
+# Search
+search:
+  path: search.xml
+  field: post
+
+# RSS Feed
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: ' '
+  order_by: -date
