@@ -185,22 +185,22 @@ myProjects:
 mySkills:
   enable: true
   data:
-    Java:
+    Python:
       background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
       percent: 85%
-    JavaScript:
+    Tensorflow:
       background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
       percent: 80%
-    HTML5:
+    Keras:
       background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
-    CSS:
+      percent: 90%
+    Pytorch:
       background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
       percent: 70%
-    SQL:
+    Java:
       background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
       percent: 90%
-    程序设计:
+    Web Design:
       background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
       percent: 75%
 
@@ -288,7 +288,7 @@ verifyPassword:
 busuanziStatistics:
   enable: true
   totalTraffic: true # 总访问量
-  totalNumberOfvisitors: true # 总人次
+  totalNumberOfvisitors: false # 总人次
 
 # Add google analytics configuration
 # 添加 Google Analytics 配置
